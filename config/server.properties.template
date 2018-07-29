@@ -38,6 +38,9 @@ delete.topic.enable={{KAFKA_DELETE_TOPIC_ENABLE}}
 port={{KAFKA_PORT}}
 advertised.port={{KAFKA_ADVERTISED_PORT}}
 advertised.listeners={{KAFKA_ADVERTISED_LISTENERS}}
+listeners={{KAFKA_LISTENERS}}
+listener.security.protocol.map={{KAFKA_LISTENER_SECURITY_PROTOCOL_MAP}}
+inter.broker.listener.name={{KAFKA_INTER_BROKER_LISTENER_NAME}}
 
 ############################# Log Basics #############################
 
